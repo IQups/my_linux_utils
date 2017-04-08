@@ -1,0 +1,13 @@
+1. edit /etc/apt/sources.list
+
+## EOL upgrade sources.list
+# Required
+deb http://old-releases.ubuntu.com/ubuntu/ quantal main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://old-releases.ubuntu.com/ubuntu/ quantal-security main restricted universe multiverse
+
+# Optional
+deb http://old-releases.ubuntu.com/ubuntu/ quantal-backports main restricted universe multiverse
+
+
+now apt-get update 
