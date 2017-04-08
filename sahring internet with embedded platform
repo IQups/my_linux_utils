@@ -1,0 +1,7 @@
+1. Add new connection on ubuntu network manager with setting as "Share to other Computers".
+2. check the ip of ubuntu ethernet ip e.g 10.42.0.1
+3. on the embedded platoform $ route add default gw 10.42.0.10 eth0
+
+ping 8.8.8.8 
+
+Bingoooo
