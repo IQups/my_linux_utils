@@ -1,0 +1,4 @@
+include devicetree repo in sdk project
+copy files *.dts in some directory
+apt-get install device-tree-compiler
+ dtc -I dts -O dtb -o ./devicetree_timer.dtb ./system.dts
