@@ -1,0 +1,8 @@
+$ cd <WORKDIR>/Toolchain
+$ tar -xvjf Sourcery_CodeBench_Lite_for_Xilinx_GNU_Linux.tar.bz2
+$ export PATH=$PATH:<WORKDIR>/Toolchain/\
+CodeSourcery/Sourcery_CodeBench_Lite_for_Xilinx_GNU_Linux/bin
+$ export CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+
+$ sudo apt-get install build-essential libncurses5-dev 
+$ sudo apt-get install ia32-libs
