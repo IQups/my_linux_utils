@@ -1,11 +1,12 @@
-#create rffec_aero.conf in /etc/init direcotry
+#create rffec_.conf in /etc/init direcotry
 
 description "RFFEC Client"
 author  "Imran Qureshi"
 
 #for reload configuration
 #initctl reload-configuration
-#start rffec_aero.py
+
+#start rffec_.py
 
 
 #env PYTHON_HOME=/<pathtovirtualenv>
@@ -19,7 +20,7 @@ chdir /root/NCWT_testing
 #tail -f /var/log/upstart/rffec_aero.log &
 console log
 # NO expect stanza if your script uses python-daemon
-exec /usr/bin/python rffec_aero.py
+exec /usr/bin/python rffec_.py
 
 # Only turn on respawn after you've debugged getting it to start and stop properly
 respawn
